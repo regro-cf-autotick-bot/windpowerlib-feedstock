@@ -1,5 +1,5 @@
 {% set name = "windpowerlib" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/windpowerlib-{{ version }}.tar.gz
-  sha256: f585da2e0abf3cc371c5e75f275dec6bc984835fb6a7921a00f143d7973feeee
+  sha256: f61a31569c90fa97dab42bf81af6526d8d36eda3b56b4f9b1d5bdf126ae14224
 
 build:
   number: 0
